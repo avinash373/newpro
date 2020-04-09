@@ -35,3 +35,600 @@
     padding-left: 2px;
     padding-right: 2px;
   }
+  .v{
+    margin-left: 110px;
+    margin-right: 120px;
+    font-size:16px;
+    font-weight:bold;
+  }
+  .act
+  {
+    color:skyblue;
+  }
+.new1 {
+    border-top: 2px solid black;
+}
+.my-row
+{
+    border:1px solid red;
+  padding: 20px;
+}
+.my-col
+{
+    border:1px solid blue;
+    padding: 20px;
+}
+.onAppear {
+  transition: transform 3000ms;
+  transform: translate3d(0px 0px, 250px);
+}
+.visible {
+  background-color: blue;
+  transform: translate3d(250px, 0px, 0px);
+}
+.onAppear1 {
+  transition: transform 1100ms;
+  transform: translate3d(0px 0px, 0px);
+}
+.visible {
+  background-color:white;
+  transform: translate3d(0px, -100px, 0px);
+}
+
+
+.c1
+{
+  font-weight: bolder;
+  color:rgb(75, 72, 72);
+}
+.c2
+{
+  font-style: italic;
+  font-weight: bold;;
+  color:rgb(145, 143, 143);
+  
+}
+.c3
+{
+  font-style: italic;
+  font-weight: bold;;
+  color:rgb(145, 143, 143);
+  line-height: 2em;
+}
+.how-it-works .step {
+  width: 20%;
+  display: inline-block;
+  text-align: center;
+  position: relative; }
+  .how-it-works .step:after {
+    width: 100%;
+    height: 4px;
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 25px;
+    background: #007bff; }
+  .how-it-works .step:last-child:after {
+    display: none; }
+  .how-it-works .step .number {
+    z-index: 1;
+    width: 50px;
+    height: 50px;
+    border: 4px solid #007bff;
+    background: #fff;
+    border-radius: 50%;
+    color: #007bff;
+    display: block;
+    position: relative;
+    margin: 0 auto 10px auto; }
+    .how-it-works .step .number > span {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      font-size: 1.3rem;
+      color: #007bff; }
+  .how-it-works .step .caption {
+    display: block; }
+.s
+{
+  margin:16px;
+}
+@media screen and (max-width: 768px) {
+  [data-aos-delay] {
+    transition-delay: 0 !important;
+  }
+}
+.team {
+  background: #fff;
+  padding: 60px 0;
+}
+
+.team .member {
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+.team .member .member-img {
+  position: relative;
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+.team .member .social {
+  position: absolute;
+  left: 0;
+  bottom: -40px;
+  right: 0;
+  height: 40px;
+  opacity: 0;
+  transition: bottom ease-in-out 0.4s;
+  text-align: center;
+  background: rgba(124, 197, 118, 0.8);
+}
+
+.team .member .social a {
+  transition: color 0.3s;
+  color: #fff;
+  margin: 0 10px;
+  padding-top: 8px;
+  display: inline-block;
+}
+
+.team .member .social a:hover {
+  color: #7cc576;
+}
+
+.team .member .social i {
+  font-size: 18px;
+  margin: 0 2px;
+}
+
+.team .member .member-info h4 {
+  font-weight: 700;
+  margin: 15px 0 5px 0;
+  font-size: 18px;
+}
+
+.team .member .member-info span {
+  display: block;
+  font-size: 13px;
+  text-transform: uppercase;
+  font-weight: 400;
+  margin-bottom: 15px;
+  color: #7cc576;
+}
+
+.team .member .member-info p {
+  font-style: italic;
+  font-size: 14px;
+  line-height: 26px;
+  color: #888888;
+}
+
+.team .member:hover .social {
+  bottom: 0;
+  opacity: 1;
+  transition: bottom ease-in-out 0.4s;
+}
+.faq .faq-list {
+  padding: 0;
+  list-style: none;
+}
+
+.faq .faq-list li {
+  border-bottom: 1px solid #eee;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+
+.faq .faq-list a {
+  display: block;
+  position: relative;
+  font-family: #7cc576;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 400;
+  padding-right: 25px;
+}
+
+.faq .faq-list i {
+  font-size: 24px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.faq .faq-list p {
+  margin-bottom: 0;
+  padding: 10px 0 0 0;
+}
+
+.faq .faq-list .icon-show {
+  display: none;
+}
+
+.faq .faq-list a.collapsed {
+  color: #343a40;
+}
+
+.faq .faq-list a.collapsed:hover {
+  color: #7cc576;
+}
+
+.faq .faq-list a.collapsed .icon-show {
+  display: inline-block;
+}
+
+.faq .faq-list a.collapsed .icon-close {
+  display: none;
+}
+.contact .info {
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.contact .info i {
+  font-size: 20px;
+  color: #7cc576;
+  float: left;
+  width: 44px;
+  height: 44px;
+  background: #eaf6e9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  transition: all 0.3s ease-in-out;
+}
+
+.contact .info h4 {
+  padding: 0 0 0 60px;
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #151515;
+}
+
+.contact .info p {
+  padding: 0 0 0 60px;
+  margin-bottom: 0;
+  font-size: 14px;
+  color: #484848;
+}
+
+.contact .info .email, .contact .info .phone {
+  margin-top: 40px;
+}
+
+.contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {
+  background: #7cc576;
+  color: #fff;
+}
+
+.contact .php-email-form {
+  width: 100%;
+  background: #fff;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.contact .php-email-form .form-group {
+  padding-bottom: 8px;
+}
+
+.contact .php-email-form .validate {
+  display: none;
+  color: red;
+  margin: 0 0 15px 0;
+  font-weight: 400;
+  font-size: 13px;
+}
+
+.contact .php-email-form .error-message {
+  display: none;
+  color: #fff;
+  background: #ed3c0d;
+  text-align: center;
+  padding: 15px;
+  font-weight: 600;
+}
+
+.contact .php-email-form .sent-message {
+  display: none;
+  color: #fff;
+  background: #18d26e;
+  text-align: center;
+  padding: 15px;
+  font-weight: 600;
+}
+
+.contact .php-email-form .loading {
+  display: none;
+  background: #fff;
+  text-align: center;
+  padding: 15px;
+}
+
+.contact .php-email-form .loading:before {
+  content: "";
+  display: inline-block;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  margin: 0 10px -6px 0;
+  border: 3px solid #18d26e;
+  border-top-color: #eee;
+  -webkit-animation: animate-loading 1s linear infinite;
+  animation: animate-loading 1s linear infinite;
+}
+
+.contact .php-email-form input, .contact .php-email-form textarea {
+  border-radius: 0;
+  box-shadow: none;
+  font-size: 14px;
+}
+
+.contact .php-email-form input {
+  height: 44px;
+}
+
+.contact .php-email-form textarea {
+  padding: 10px 12px;
+}
+
+.contact .php-email-form button[type="submit"] {
+  background: #7cc576;
+  border: 0;
+  padding: 10px 24px;
+  color: #fff;
+  transition: 0.4s;
+  border-radius: 4px;
+}
+
+.contact .php-email-form button[type="submit"]:hover {
+  background: #61b959;
+}
+
+@-webkit-keyframes animate-loading {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes animate-loading {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+#footer {
+  background: url("../img/footer-bg.jpg") center center no-repeat;
+  color: #fff;
+  font-size: 14px;
+  position: relative;
+ margin-left:-170px;
+ margin-right: -240px;
+  
+}
+
+#footer::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.85);
+  z-index: 1;
+}
+
+#footer .footer-top {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  padding: 80px 0;
+}
+
+#footer .footer-top .footer-logo img {
+  height: 80px;
+}
+
+#footer .footer-top h3 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #fff;
+  position: relative;
+  font-family: "Poppins", sans-serif;
+  padding: 30px 0 0 0;
+  margin-bottom: 0;
+}
+
+#footer .footer-top p {
+  font-size: 15;
+  font-style: italic;
+  margin: 30px 0 0 0;
+  padding: 0;
+}
+
+#footer .footer-top .footer-newsletter {
+  text-align: center;
+  font-size: 15px;
+  margin-top: 30px;
+}
+
+#footer .footer-top .footer-newsletter form {
+  background: #fff;
+  padding: 6px 10px;
+  position: relative;
+  border-radius: 50px;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+#footer .footer-top .footer-newsletter form input[type="email"] {
+  border: 0;
+  padding: 4px 8px;
+  width: calc(100% - 100px);
+}
+
+#footer .footer-top .footer-newsletter form input[type="submit"] {
+  position: absolute;
+  top: 0;
+  right: -1px;
+  bottom: 0;
+  border: 0;
+  background: none;
+  font-size: 16px;
+  padding: 0 20px;
+  background: #7cc576;
+  color: #fff;
+  transition: 0.3s;
+  border-radius: 50px;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+#footer .footer-top .footer-newsletter form input[type="submit"]:hover {
+  background: #5ab652;
+}
+
+#footer .footer-top .social-links {
+  margin-top: 30px;
+}
+
+#footer .footer-top .social-links a {
+  font-size: 18px;
+  display: inline-block;
+  background: #7cc576;
+  color: #fff;
+  line-height: 1;
+  padding: 8px 0;
+  margin-right: 4px;
+  border-radius: 50%;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+}
+
+#footer .footer-top .social-links a:hover {
+  background: #5ab652;
+  color: #fff;
+  text-decoration: none;
+}
+
+#footer .footer-bottom {
+  border-top: 1px solid #222222;
+  z-index: 2;
+  position: relative;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+#footer .copyright {
+  text-align: center;
+}
+
+#footer .credits {
+  text-align: center;
+  font-size: 13px;
+  padding-top: 5px;
+}
+
+services .icon-box h4 {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 5px 0 10px 60px;
+}
+
+.services .icon-box i {
+  font-size: 48px;
+  float: left;
+  color: #7cc576;
+}
+
+.services .icon-box p {
+  font-size: 15px;
+  color: #959595;
+  margin-left: 60px;
+}
+
+.services .image {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 400px;
+}
+
+section{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+section one
+{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 5em;
+  color: black;
+  padding: 10px;
+  
+}
+.fab-container
+{
+  position:fixed;
+  bottom:50px;
+  right:50px;
+  z-index: 999;
+  cursor: pointer;
+}
+.fab-icon-holder
+{
+  width:50px;
+  height:50px;
+  border-radius: 100%;
+  background: #016fb9;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+
+}
+.fab-icon-holder:hover{
+  opacity: 0.5;
+}
+.fab-icon-holder i{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  
+}
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#0C9;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+	box-shadow: 2px 2px 3px #999;
+}
+
+.my-float{
+	margin-top:22px;
+}
+

@@ -18,7 +18,7 @@
 <div class="jumbotron" style="background-image: url('1.jpg');background-size:cover;margin-top:-50px;height: 180px;">
     <div class="row ">
         <div class="col-8 offset-1 ">
-            <h2 class="f1 ml-2">Car Key Rental Automated System</h2>
+            <h2 class="f1 ml-2 my-3">Car Key Rental Automated System</h2>
         </div>
             
         <div class="col-3  ">
@@ -55,13 +55,123 @@
           <a class="nav-link" href="help.html"><span class="fa fa-info-circle fa-md"> Help</span></a>
         </li>
       </ul> 
+      <ul>
+        <li class="nav-item dropdown" style="background-color: blue;color:palevioletred;">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <span class="fa fa-info-circle fa-md" style="color: white;">avinash494</span></a>
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="color: white;">
+            <a class="dropdown-item" href="profile.html">Profile</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="home.html">Logout</a>
+          </div>
+        </li>
+      </ul>
       
-      
-        <button class="btn btn-primary my-2 my-sm-0 mx-4" data-toggle="modal" data-target="#elegantModalForm" type="submit"><span class="fa  fa-user-plus fa-md" style="font-size: 15px;"> Signed as<br>avinash494</span></button>
+       
      
       </form>
     </div>
   </nav>
+  <div class="modal fade" id="basicExampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header"style="background-color:rgb(92, 235, 135)">
+        <h5 class="modal-title" id="exampleModalLabel">Preview</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="card">
+          <div class="card-header text-center" style="background-color: indigo;color: honeydew;"><h5>
+            Carkey Rental Automated System </h5><img src="index.jpg" class="img-responsive" alt="logo" width="50px" height="50px"> 
+          </div>
+          <div class="card-body" style="background-color: grey;">
+            <table class="table table-sm">
+              <tbody>
+                <tr  class="table-primary">
+                  <th scope="row">Customer Name</th>
+                  <td id="pun">Mark</td>
+                  
+                </tr>
+                <tr  class="table-secondary">
+                  <th scope="row">Email Id</th>
+                  <td id="pei">Jacob</td>
+                  
+                </tr>
+                <tr  class="table-info">
+                  <th scope="row">Mobile Number</th>
+                  <td id="pmn">Larry the Bird</td>
+                 
+                </tr>
+                <tr  class="table-success">
+                  <th scope="row">Starting Place</th>
+                  <td id="psp">Larry the Bird</td>
+                 
+                </tr>
+                <tr  class="table-danger">
+                  <th scope="row">Destination Place</th>
+                  <td id="pdp">Larry the Bird</td>
+                 
+                </tr>
+                <tr  class="table-warning">
+                  <th scope="row">Starting Date</th>
+                  <td id="psd">Larry the Bird</td>
+                 
+                </tr>
+                <tr class="table-info">
+                  <th scope="row">Ending Date</th>
+                  <td id="ped">Larry the Bird</td>
+                 
+                </tr>
+                <tr class="table-primary">
+                  <th scope="row">Starting Time</th>
+                  <td id="pst">Larry the Bird</td>
+                 
+                </tr>
+                <tr class="table-secondary">
+                  <th scope="row">Address</th>
+                  <td id="pa"><address></address></td>
+                 
+                </tr>
+                <tr class="table-info">
+                  <th scope="row">Car Type</th>
+                  <td id="pc"><address>ghjk</address></td>
+                 
+                </tr>
+                <tr class="table-success">
+                  <th scope="row">Fuel</th>
+                  <td id="pf">tyu</td>
+                 
+                </tr>
+                <tr class="table-danger">
+                  <th scope="row">Documents</th>
+                  <td id="pd">tyu</td>
+                 
+                </tr>
+                <tr class="table-warning">
+                  <th scope="row">payment</th>
+                  <td id="pp">tyu</td>
+                 
+                </tr>
+                <tr class="table-info">
+                  <th scope="row"  class="text-center"colspan="2">Thank You</th>
+                  
+                 
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary"  onclick="cpre();" data-dismiss="modal">ok</button>
+       
+      </div>
+    </div>
+  </div>
+</div>
     <div class="container bo">
       <br>
       <div class="accordion" id="accordionExample">
@@ -78,7 +188,7 @@
             <div class="card-body">
               <div class="input-group mb-3">
                 <div class="input-group-prepend">
-                  <span class="input-group-text" id="basic-addon1"><i class="f5">Select : </i></span> <input type="text" class="form-control" placeholder="From" aria-label="Username" aria-describedby="basic-addon1"> <span class="input-group-text" id="basic-addon1"><i class="fa fa-location-arrow fa-lg"></i></span> <input type="text" class="form-control" placeholder="To" aria-label="Username" aria-describedby="basic-addon1">
+                  <span class="input-group-text" id="basic-addon1"><i class="f5">Select : </i></span> <input type="text" id="sou" class="form-control" placeholder="From" aria-label="Username" aria-describedby="basic-addon1"> <span class="input-group-text" id="basic-addon1"><i class="fa fa-location-arrow fa-lg"></i></span> <input type="text" id="des" class="form-control" placeholder="To" aria-label="Username" aria-describedby="basic-addon1">
                   <br>
                 
                 </div>
@@ -86,7 +196,7 @@
               </div>
               <div class="input-group mb-3">
                 <div class="input-group-prepend">
-                  <span class="input-group-text" id="basic-addon1"><i class="f5"> Date : </i></span> <input type="date" class="form-control" placeholder="From" aria-label="Username" aria-describedby="basic-addon1"> <span class="input-group-text" id="basic-addon1"><i class="fa fa-calendar fa-lg"></i></span> <input type="date" class="form-control" placeholder="To" aria-label="Username" aria-describedby="basic-addon1">
+                  <span class="input-group-text" id="basic-addon1"><i class="f5"> Date : </i></span> <input type="date" id="sd" class="form-control" placeholder="From" aria-label="Username" aria-describedby="basic-addon1"> <span class="input-group-text" id="basic-addon1"><i class="fa fa-calendar fa-lg"></i></span> <input type="date" id="fd" class="form-control" placeholder="To" aria-label="Username" aria-describedby="basic-addon1">
                   <br>
                 
                 </div>
@@ -94,7 +204,7 @@
               </div>
               <div class="input-group mb-3">
                 <div class="input-group-prepend">
-                  <span class="input-group-text" id="basic-addon1"><i class="f5"> Starting Time : </i></span> <input type="time" class="form-control" placeholder="From" aria-label="Username" aria-describedby="basic-addon1">  <span class="input-group-text" id="basic-addon1"><i style="font-family: Arial, Helvetica, sans-serif;font-weight:lighter;">Eg:- 5:04 AM</i>
+                  <span class="input-group-text" id="basic-addon1"><i class="f5"> Starting Time : </i></span> <input type="time" id="st" class="form-control" placeholder="From" aria-label="Username" aria-describedby="basic-addon1">  <span class="input-group-text" id="basic-addon1"><i style="font-family: Arial, Helvetica, sans-serif;font-weight:lighter;">Eg:- 5:04 AM</i>
                   <br>
                 
                 </div>
@@ -110,20 +220,22 @@
               </div>
               <div class="input-group mb-3">
                 <div class="input-group-prepend">
-                  <textarea class="form-control ml-4" rows="5" id="comment" width="100px"></textarea> 
+                  <textarea id="txt" class="form-control ml-4" rows="5" id="comment" width="100px"></textarea> 
                 </div>
                
               </div>
               <div class="input-group mb-3">
                 <div class="input-group-prepend text-center">
-                 <input type="submit" class="btn btn-success mx-auto" id="start" onclick="f1();" name="Start tour" value="Start Tour">
-                </div>
+                 <input type="submit" class="btn btn-success mx-auto" id="start" onclick="valid1();" name="Start tour" value="Start Tour"></div>
+                  <P id="w1" style="display: none;" class="alert alert-success my-3 mx-5"><strong>Failure!</strong> Field Details aren't filled corectly.</p>
+               
+               
                
               </div>
             </div>
           </div>
         </div>
-        <div class="card">
+          <div class="card">
           <div class="card-header acc" id="headingTwo">
             <h2 class="mb-0">
               <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
@@ -134,20 +246,22 @@
           </div>
           <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
             <div class="card-body">
+              <div class="row">
+                <div class="col-12 col-sm-8 col-md-8">
               <div class="input-group mb-3">
                 <div class="input-group-prepend text-center">
                   <span class="input-group-text" id="basic-addon1"><i class="fa fa-map-marker fa-lg"></i></span>
                     <span class="input-group-text" id="basic-addon1"><i class="f5"> Select Car : </i></span>
-                    <select class="custom-select">
+                    <select class="custom-select" id="opt" onchange="getOption();">
                       <option selected>nothing Choosen</option>
                       <option value="1">Benz</option>
-                      <option value="2">Huyndai</option>
-                      <option value="3">Suzuki</option>
-                      <option value="1">Fortuner</option>
-                      <option value="2">Audi</option>
+                      <option value="2">Fortuner</option>
                       <option value="3">Ford</option>
+                      <option value="4">Huyandi</option>
+                      <option value="5">Suzuki</option>
+                      <option value="6">Audi</option>
                     </select>
-                    <span class="input-group-text" id="basic-addon1"><i><a href="services.html">Car Details</a></i></span>
+                    <span class="input-group-text" id="basic-addon1"><i>Car Details</i></span>
                       
                     
                 </div>
@@ -157,127 +271,190 @@
                 <div class="input-group-prepend text-center">
                   <span class="input-group-text" id="basic-addon1"><i class="fa fa-tachometer fa-lg"></i></span>
                   <span class="input-group-text" id="basic-addon1"><i class="f5">Fuel : </i></span>
-                  <div class="btn-group btn-group-toggle" data-toggle="buttons">
-                    <label class="btn btn-info active">
-                      <input type="radio" name="options" id="option1" checked>Full Tank
+                  <div class="btn-group btn-group-toggle" data-toggle="buttons" id="r1">
+                    <label class="btn btn-info">
+                      <input type="radio" name="options" id="option1"  value="Full Tank" checked>Full Tank
                     </label>
                     <label class="btn btn-secondary">
-                      <input type="radio" name="options" id="option2">Half Tank
+                      <input type="radio" name="options" id="option2" value="Half Tank">Half Tank
                     </label>
                     <label class="btn btn-warning">
-                      <input type="radio" name="options" id="option3">min.Fuel
+                      <input type="radio" name="options" id="option3" value="Min fuel">min.Fuel
                     </label>
                   </div>
                 </div>
               </div>
               <div class="input-group mb-3">
                 <div class="input-group-prepend text-center">
-                 <input type="submit"  class="btn btn-success mx-auto" onclick="f2();"  id="car"name="Start tour" value="&nbsp;&nbsp;&nbsp;Next&nbsp;&nbsp;&nbsp;">
+                 <input type="submit"  class="btn btn-success mx-auto" onclick="valid2();"  id="car"name="Start tour" value="&nbsp;&nbsp;&nbsp;Next&nbsp;&nbsp;&nbsp;">
                 </div>
+                <P id="w2" style="display: none;" class="alert alert-success my-3 mx-5"><strong>Failure!</strong> Field Details aren't filled corectly.</p>
                </div>
               </div>
+              <div class="col-12 col-sm-12 col-md-4">
+                <div class="row">
+                  <div class="col-12">
+                      <img src="carre.png" id="img1" alt="carlogo" width="250px" height="200px">
+                  </div>
+                  <div class="row">
+                  <div class="col offset-1">
+                    <br>
+                    <table class="table table-hover" style="padding:20px;">
+
+                      <thead>
+                        <tr>
+                         
+                         
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr class="table-primary">
+                          <td>Company</td>
+                          <td id="name" width="100%">name</td>
+                        </tr>
+                        <tr class="table-secondary">
+                          
+                          <td>Rent</td>
+                          <td id="rent">1000</td>
+                          
+                        </tr>
+                        <tr class="table-success">
+                          
+                          <td>Fuel</td>
+                          <td id="fuel">petrol</td>
+                          
+                        </tr>
+                        <tr class="table-danger" style="padding-right: 10px;">
+                          <td>Details</td>
+                          <td>Good condition.<br>
+                          video and audio.<br>
+                          Air Bags Safety.
+                        </td>
+                        </tr>
+                      
+                        <tr class="table-warning">
+                          
+                          <td colspan="2"><a href="services.html">click here</a> For more car Details</td>
+                         
+                          
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+                </div>
+              </div>
+            </div>
+              </div>
             </div>
           </div>
         </div>
-        <div class="card">
-          <div class="card-header acc" id="headingThree">
-            <h2 class="mb-0">
-              <label  type="label"  aria-controls="collapseThree">
-                Details Of The Customer
-              </label>
-            </h2>
-          </div>
-          <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
-            <div class="card-body">
+        <div>
+            <div class="card-header acc" id="headingThree"  data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              <h2 class="mb-0">
+                <label  type="label"  aria-controls="collapseThree">
+                  Details Of The Customer
+                </label>
+              </h2>
+            </div>
+            
+            <div class="row">
+              <div class="col-12 col-sm-12 col-md-12 card">
+                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                  <div class="card-body">
+                    <div class="input-group mb-3">
+                      <div class="input-group-prepend">
+                        <span class="input-group-text" id="basic-addon1"><i class="fa fa-user fa-lg"></i></span> <input type="text" id="un" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1"> 
+                        <br>
+                      
+                      </div>
+                  </div>
+                <div class="input-group mb-3">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text" id="basic-addon1"><i class="fa fa-envelope fa-lg"></i></span> <input type="email" id="em" class="form-control" placeholder="Email" aria-label="Username" aria-describedby="basic-addon1"> 
+                    <br>
+                  
+                  </div>
+              </div>
+                <div class="input-group mb-3">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text" id="basic-addon1"><i class="fa fa-mobile fa-lg"></i></span> <input type="tel"  id="tn"class="form-control" placeholder="Mobile Number" aria-label="Username" aria-describedby="basic-addon1"> 
+                    <br>
+                  
+                  </div>
+              </div>
               <div class="input-group mb-3">
                 <div class="input-group-prepend">
-                  <span class="input-group-text" id="basic-addon1"><i class="fa fa-user fa-lg"></i></span> <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1"> 
-                  <br>
-                
+                  <input type="file" class="form-control-file border" id="f1">
                 </div>
-            </div>
+              </div>
+                <div class="input-group mb-3">
+                  <div class="input-group-prepend">
+                    <input type="file" class="form-control-file border" id="f2">
+                  </div>
+              </div>
+                <div class="input-group mb-3">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text" id="basic-addon1"><i class="fa fa-mobile fa-lg"></i></span><span class="input-group-text" id="basic-addon1"><i class="f5">Deposit payment :</i></span><label class="btn btn-light btn-md f5 my-2">Amount</label> 
+                    
+                    <br>
+                  
+                  </div>
+              </div>
+                <div class="input-group mb-3">
+                  <div class="input-group-prepend">
+                    <div class="btn-group btn-group-toggle" data-toggle="buttons" id="r2">
+                      <label class="btn btn-info active">
+                        <input type="radio" name="opt" id="option1" value="Phone pe" checked>Phone Pe
+                      </label>
+                      <label class="btn btn-secondary">
+                        <input type="radio" name="opt" id="option2" value="Google Pay">Google Pay
+                      </label>
+                      <label class="btn btn-primary">
+                        <input type="radio" name="opt" id="option3" value="Amazon Pay">Amazon Pay
+                      </label>
+                      <label class="btn btn-success">
+                        <input type="radio" name="opt" id="option3" value="Credit-card">Credit-Card
+                      </label>
+                      <label class="btn btn-warning">
+                        <input type="radio" name="opt" id="option3" value="Cash On Delivery">Cash On Delivery
+                      </label>
+                    </div>
+                    
+                    <br>
+                  
+                  </div>
+              </div>
             <div class="input-group mb-3">
               <div class="input-group-prepend">
-                <span class="input-group-text" id="basic-addon1"><i class="fa fa-envelope fa-lg"></i></span> <input type="email" class="form-control" placeholder="Email" aria-label="Username" aria-describedby="basic-addon1"> 
-                <br>
-              
+                <input type="submit" onclick="valid3();" class="btn btn-success mx-auto mx-10"name="Register" value="&nbsp;&nbsp;&nbsp;Register&nbsp;&nbsp;&nbsp;"> 
+                <input type="submit" class="btn btn-danger" onclick="preview();" name="preview" value="&nbsp;&nbsp;&nbsp;preview&nbsp;&nbsp;&nbsp;">
+                <P id="w3" style="display: none;" class="alert alert-success my-3 mx-5"><strong>Failure!</strong> Field Details aren't filled corectly.</p>
               </div>
-          </div>
-          <div class="input-group mb-3">
-            <div class="input-group-prepend">
-              <span class="input-group-text" id="basic-addon1"><i class="fa fa-mobile fa-lg"></i></span> <input type="tel" class="form-control" placeholder="Mobile Number" aria-label="Username" aria-describedby="basic-addon1"> 
-              <br>
-            
-            </div>
-        </div>
-        <div class="input-group mb-3">
-          <div class="input-group-prepend">
-            <div class="row">
-              <div class="col-10">
-              <span class="input-group-text" id="basic-addon1"><i class="fa  fa-file fa-lg"></i></span> <input type="file" class="custom-file-input" id="customFile">
-           <label class="custom-file-label" for="customFile">Driving License copy</label>
-            </div>
-            <div class="col-2">
-              <button class="btn btn-secondary"><i class="fa fa-upload"></i></button>
-            </div>
-          </div>
-        </div>
-        <div class="input-group mb-3">
-          <div class="input-group-prepend">
-            <div class="row">
-              <div class="col-10">
-              <span class="input-group-text" id="basic-addon1"><i class="fa  fa-file fa-lg"></i></span> <input type="file" class="custom-file-input" id="customFile">
-           <label class="custom-file-label" for="customFile">Adhaar Card or passport copy</label>
-            </div>
-            <div class="col-2">
-              <button class="btn btn-secondary"><i class="fa fa-upload"></i></button>
-            </div>
-          </div>
-        </div>
-        <div class="input-group mb-3">
-          <div class="input-group-prepend">
-            <span class="input-group-text" id="basic-addon1"><i class="fa fa-mobile fa-lg"></i></span><span class="input-group-text" id="basic-addon1"><i class="f5">Deposit payment :</i></span><label class="btn btn-light btn-md f5 my-2">Amount</label> 
-            
-            <br>
+                </div>
+                
+              </div>
+              
           
-          </div>
-      </div>
-      <div class="input-group mb-3">
-        <div class="input-group-prepend">
-          <div class="btn-group btn-group-toggle" data-toggle="buttons">
-            <label class="btn btn-info active">
-              <input type="radio" name="options" id="option1" checked>Phone Pe
-            </label>
-            <label class="btn btn-secondary">
-              <input type="radio" name="options" id="option2">Google Pay
-            </label>
-            <label class="btn btn-primary">
-              <input type="radio" name="options" id="option3">Amazon Pay
-            </label>
-            <label class="btn btn-success">
-              <input type="radio" name="options" id="option3">Credit-Card
-            </label>
-            <label class="btn btn-warning">
-              <input type="radio" name="options" id="option3">Cash On Delivery
-            </label>
+            </div>
+            
+
           </div>
           
-          <br>
-        
-        </div>
-    </div>
-    <input type="submit" class="btn btn-success mx-auto"name="Register" value="&nbsp;&nbsp;&nbsp;Register&nbsp;&nbsp;&nbsp;">
-          </div>
-      </div>
+          
+           </div>
+     
       
           </div>
+         
           </div>
+          
         </div>
         <div class="t text-center">Thank you . Enjoy our Service</div>
       </div>
      
     </div>
-  
+  </div>
   <footer class="footer"style="background-color:#bdbdbd">
     <div class="container">
         <div class="row">             

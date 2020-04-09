@@ -7,4 +7,4 @@ $("#lf").click(function(){
     $('#elegantModal').modal('hide');
     $('#darkModalForm').modal('show');
   });
-  
+ 
