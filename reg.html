@@ -13,497 +13,341 @@
     <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">        
     <link rel="stylesheet" href="reg.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="/home/rgukt/Videos/bOGnMCzEEeiTdA5yoE99Fg_6da6f2f02cc411e8b484f7e801bd0278_Bootstrap4-starter/Bootstrap4/conFusion/flaticon/font/flaticon.css">
+    
 </head>
-<body style="background-image: url('bod.jpg');background-size:cover" onload="b();">
-<div class="jumbotron" style="background-image: url('1.jpg');background-size:cover;margin-top:-50px;height: 180px;">
-    <div class="row ">
-        <div class="col-8 offset-1 ">
-            <h2 class="f1 ml-2 my-3">Car Key Rental Automated System</h2>
-        </div>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light v" style="font-weight: bold;" >
+        
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav mr-auto ">
+              <li class="nav-item active">
+                <a class="nav-link mx-4 my-5"  style="margin-right:100px;"href="home.html">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link mx-4  my-5" href="help.html" >cars<span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link mx-4 my-5"style="color:purple" href="#"> Register<span class="sr-only">(current)</span></a>
+              </li>
+              <span class="navbar-brand mx-5">
+                <a href="home.html"><img src="newlogo.jpg" width="100" height="100" style="border-radius: 50%;float: none;margin-left:90px;" alt="logo">
+              </a></span>
+            </ul>
             
-        <div class="col-3  ">
-            <a class="navbar-brand" href="#" style="margin-left: -20px;">
-                <img  class="img-responsive img-fluid rounded" src="index.jpg" height="120" width="120">
-            </a>
-        </div>
-      </div>
-</div>
-<nav class="navbar navbar-expand-lg navbar-light"  style="background-image: url('navbar.jpg');background-size:cover;margin-top:-32px;font-size:17px;font-weight: bold;">
-    <a class="navbar-brand b1"style="font-size:18px;color:white;font-weight:bolde;" href="#"><span class="fa fa-car fa-lg"> Car Key</span></a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-  
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item ">
-          <a class="nav-link " href="main.html"><span class="fa fa-home fa-md"> Home</span><span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item active">
-            <a class="nav-link" href="#"><span class="fa fa-registered fa-md"> Registrations</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="services.html"><span class="fa fa-server fa-md"> Services</span></a>
-          </li>
-        <li class="nav-item">
-          <a class="nav-link " href="about.html"><span class="fa fa-credit-card fa-md"> About us</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="contact.html"><span class="fa fa-user-circle-o fa-md"> Contact Us</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="help.html"><span class="fa fa-info-circle fa-md"> Help</span></a>
-        </li>
-      </ul> 
-      <ul>
-        <li class="nav-item dropdown" style="background-color: blue;color:palevioletred;">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            <span class="fa fa-info-circle fa-md" style="color: white;">avinash494</span></a>
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="color: white;">
-            <a class="dropdown-item" href="profile.html">Profile</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="home.html">Logout</a>
+           
+            <span class="navbar-text">
+              <ul class="navbar-nav">
+                <li class="nav-item active ">
+                  <a class="nav-link mx-4 my-1" href="services.html">Services <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link mx-4 my-1" href="about.html"  >About us<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active my-1">
+                  <a class="nav-link" href="contact.html" >Contact us<span class="sr-only">(current)</span></a>
+                </li>
+                </ul>
+            </span>
           </div>
-        </li>
-      </ul>
-      
-       
-     
-      </form>
+        </nav>
+      </div>
     </div>
-  </nav>
-  <div class="modal fade" id="basicExampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header"style="background-color:rgb(92, 235, 135)">
-        <h5 class="modal-title" id="exampleModalLabel">Preview</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <div class="card">
-          <div class="card-header text-center" style="background-color: indigo;color: honeydew;"><h5>
-            Carkey Rental Automated System </h5><img src="index.jpg" class="img-responsive" alt="logo" width="50px" height="50px"> 
-          </div>
-          <div class="card-body" style="background-color: grey;">
-            <table class="table table-sm">
-              <tbody>
-                <tr  class="table-primary">
-                  <th scope="row">Customer Name</th>
-                  <td id="pun">Mark</td>
-                  
-                </tr>
-                <tr  class="table-secondary">
-                  <th scope="row">Email Id</th>
-                  <td id="pei">Jacob</td>
-                  
-                </tr>
-                <tr  class="table-info">
-                  <th scope="row">Mobile Number</th>
-                  <td id="pmn">Larry the Bird</td>
-                 
-                </tr>
-                <tr  class="table-success">
-                  <th scope="row">Starting Place</th>
-                  <td id="psp">Larry the Bird</td>
-                 
-                </tr>
-                <tr  class="table-danger">
-                  <th scope="row">Destination Place</th>
-                  <td id="pdp">Larry the Bird</td>
-                 
-                </tr>
-                <tr  class="table-warning">
-                  <th scope="row">Starting Date</th>
-                  <td id="psd">Larry the Bird</td>
-                 
-                </tr>
-                <tr class="table-info">
-                  <th scope="row">Ending Date</th>
-                  <td id="ped">Larry the Bird</td>
-                 
-                </tr>
-                <tr class="table-primary">
-                  <th scope="row">Starting Time</th>
-                  <td id="pst">Larry the Bird</td>
-                 
-                </tr>
-                <tr class="table-secondary">
-                  <th scope="row">Address</th>
-                  <td id="pa"><address></address></td>
-                 
-                </tr>
-                <tr class="table-info">
-                  <th scope="row">Car Type</th>
-                  <td id="pc"><address>ghjk</address></td>
-                 
-                </tr>
-                <tr class="table-success">
-                  <th scope="row">Fuel</th>
-                  <td id="pf">tyu</td>
-                 
-                </tr>
-                <tr class="table-danger">
-                  <th scope="row">Documents</th>
-                  <td id="pd">tyu</td>
-                 
-                </tr>
-                <tr class="table-warning">
-                  <th scope="row">payment</th>
-                  <td id="pp">tyu</td>
-                 
-                </tr>
-                <tr class="table-info">
-                  <th scope="row"  class="text-center"colspan="2">Thank You</th>
-                  
-                 
-                </tr>
-              </tbody>
-            </table>
-          </div>
+  </div>
+  <div class="jumbotron jumbotron-fluid"style="background-image:url('hero_2.jpg');background-size:cover;height:470px;opacity:0.9">
+    <header class="container h-50">
+      <div class="d-flex align-items-center justify-content-center h-65 my-1">
+        <div class="d-flex flex-column">
+          
+          <p style="font-size:50px;color: beige;">
+            <section>
+              <p style="font-size:80px;color:violet;margin-top: -40px;" id="ti">
+               RegisteR
+              </p>
+            </section> 
         </div>
       </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary"  onclick="cpre();" data-dismiss="modal">ok</button>
+    </header>
+  
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <h1 style="text-align: center;font-family: sans-serif;font-weight: bold;"data-aos="fade-up">MW Travels Register Form</h1>
+      <hr>
+      <br>
+      <br>
+      <div>
+        <h1 style="font-family: sans-serif;border:1px solid rgb(183, 221, 183);padding: 8px;"data-aos="fade-down"><span class="fa fa-envelope"></span>  Star your Tour</h1>
        
+        <br>
+        <form action="forms/contact.php" method="post" role="form" class="php-email-form" data-aos="fade-left">
+          <div class="form-row">
+            <div class="col-md-6 form-group"data-aos="fade-left">
+            
+              Starting Point :<input type="text" name="name" class="form-control" id="name" placeholder="choose your starting place" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+              <div class="validate"></div>
+            </div>
+            <div class="col-md-6 form-group"data-aos="fade-right">
+              Starting Time :<input type="time" class="form-control" name="time" id="email" placeholder="choose your starting time" data-rule="email" data-msg="Please enter a valid email" />
+              <div class="validate"></div>
+            </div>
+          </div>
+          <div class="form-row">
+          <div class="col-md-6 form-group"data-aos="fade-left">
+            
+            Starting Date :<input type="date" name="name" class="form-control" id="name" placeholder="" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+            <div class="validate"></div>
+          </div>
+          <div class="col-md-6 form-group"data-aos="fade-right">
+            Ending Date : <input type="date" class="form-control" name="time" id="email" placeholder="choose your starting time" data-rule="email" data-msg="Please enter a valid email" />
+            <div class="validate"></div>
+          </div>
+          </div>
+          <div class="form-group"data-aos="fade-left">
+            Address :<textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Address to handover car"></textarea>
+            <div class="validate"></div>
+          </div>
+          
+          <div class="text-center" data-aos="fade-up"><button type="submit" class="btn btn-success">Send Message</button></div>
+        </form>
+
+
       </div>
     </div>
   </div>
 </div>
-    <div class="container bo">
-      <br>
-      <div class="accordion" id="accordionExample">
-        <div class="card">
-          <div class="card-header acc" id="headingOne">
-            <h2 class="mb-0">
-              <label  type="label" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                Start Your Reservation
-              </label>
-            </h2>
-          </div>
+<br>
+<br>
+<div class="container">
+  <div class="row">
+    <div class="col">
       
-          <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
-            <div class="card-body">
-              <div class="input-group mb-3">
-                <div class="input-group-prepend">
-                  <span class="input-group-text" id="basic-addon1"><i class="f5">Select : </i></span> <input type="text" id="sou" class="form-control" placeholder="From" aria-label="Username" aria-describedby="basic-addon1"> <span class="input-group-text" id="basic-addon1"><i class="fa fa-location-arrow fa-lg"></i></span> <input type="text" id="des" class="form-control" placeholder="To" aria-label="Username" aria-describedby="basic-addon1">
-                  <br>
-                
-                </div>
-               
-              </div>
-              <div class="input-group mb-3">
-                <div class="input-group-prepend">
-                  <span class="input-group-text" id="basic-addon1"><i class="f5"> Date : </i></span> <input type="date" id="sd" class="form-control" placeholder="From" aria-label="Username" aria-describedby="basic-addon1"> <span class="input-group-text" id="basic-addon1"><i class="fa fa-calendar fa-lg"></i></span> <input type="date" id="fd" class="form-control" placeholder="To" aria-label="Username" aria-describedby="basic-addon1">
-                  <br>
-                
-                </div>
-               
-              </div>
-              <div class="input-group mb-3">
-                <div class="input-group-prepend">
-                  <span class="input-group-text" id="basic-addon1"><i class="f5"> Starting Time : </i></span> <input type="time" id="st" class="form-control" placeholder="From" aria-label="Username" aria-describedby="basic-addon1">  <span class="input-group-text" id="basic-addon1"><i style="font-family: Arial, Helvetica, sans-serif;font-weight:lighter;">Eg:- 5:04 AM</i>
-                  <br>
-                
-                </div>
-               
-              </div>
-              <div class="input-group mb-3">
-                <div class="input-group-prepend">
-                  <span class="input-group-text" id="basic-addon1"><i class="fa fa-map-marker fa-lg"></i></span><span class="input-group-text" id="basic-addon1"><i class="f5"> Delivery Location Adress : </i></span>
-                  <br>
-                  
-                </div>
-               
-              </div>
-              <div class="input-group mb-3">
-                <div class="input-group-prepend">
-                  <textarea id="txt" class="form-control ml-4" rows="5" id="comment" width="100px"></textarea> 
-                </div>
-               
-              </div>
-              <div class="input-group mb-3">
-                <div class="input-group-prepend text-center">
-                 <input type="submit" class="btn btn-success mx-auto" id="start" onclick="valid1();" name="Start tour" value="Start Tour"></div>
-                  <P id="w1" style="display: none;" class="alert alert-success my-3 mx-5"><strong>Failure!</strong> Field Details aren't filled corectly.</p>
-               
-               
-               
-              </div>
-            </div>
-          </div>
-        </div>
-          <div class="card">
-          <div class="card-header acc" id="headingTwo">
-            <h2 class="mb-0">
-              <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
-              <label type="label"  aria-expanded="false" aria-controls="collapseTwo">
-                Select your car
-              </label>
-            </h2>
-          </div>
-          <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
-            <div class="card-body">
-              <div class="row">
-                <div class="col-12 col-sm-8 col-md-8">
-              <div class="input-group mb-3">
-                <div class="input-group-prepend text-center">
-                  <span class="input-group-text" id="basic-addon1"><i class="fa fa-map-marker fa-lg"></i></span>
-                    <span class="input-group-text" id="basic-addon1"><i class="f5"> Select Car : </i></span>
-                    <select class="custom-select" id="opt" onchange="getOption();">
-                      <option selected>nothing Choosen</option>
-                      <option value="1">Benz</option>
-                      <option value="2">Fortuner</option>
-                      <option value="3">Ford</option>
-                      <option value="4">Huyandi</option>
-                      <option value="5">Suzuki</option>
-                      <option value="6">Audi</option>
-                    </select>
-                    <span class="input-group-text" id="basic-addon1"><i>Car Details</i></span>
-                      
+      <div id="f2">
+        <h1 style="font-family: sans-serif;border:1px solid rgb(183, 221, 183);padding: 8px;"data-aos="fade-down"><span class="fa fa-envelope"></span>  Select your car</h1>
+       
+        <br>
+        <div class="row">
+          <div class="col-md-6">
+            <form action="forms/contact.php" method="post" role="form" class="php-email-form" data-aos="fade-left">
+              <div class="form-row">
+                <div class="col-md-8 form-group offset-2" data-aos="fade-left">
+                 Select car : <select class="form-control form-control-lg">
+                    <option>Mercedes Benz</option>
+                    <option>Fortuner</option>
+                    <option>Jaguar</option>
+                    <option>Huyandai</option>
+                    <option>suzuki</option>
+                    <option>Audi</option>
+                    <option>Ford</option>
                     
-                </div>
-               
-              </div>
-              <div class="input-group mb-3">
-                <div class="input-group-prepend text-center">
-                  <span class="input-group-text" id="basic-addon1"><i class="fa fa-tachometer fa-lg"></i></span>
-                  <span class="input-group-text" id="basic-addon1"><i class="f5">Fuel : </i></span>
-                  <div class="btn-group btn-group-toggle" data-toggle="buttons" id="r1">
-                    <label class="btn btn-info">
-                      <input type="radio" name="options" id="option1"  value="Full Tank" checked>Full Tank
-                    </label>
-                    <label class="btn btn-secondary">
-                      <input type="radio" name="options" id="option2" value="Half Tank">Half Tank
-                    </label>
-                    <label class="btn btn-warning">
-                      <input type="radio" name="options" id="option3" value="Min fuel">min.Fuel
-                    </label>
-                  </div>
-                </div>
-              </div>
-              <div class="input-group mb-3">
-                <div class="input-group-prepend text-center">
-                 <input type="submit"  class="btn btn-success mx-auto" onclick="valid2();"  id="car"name="Start tour" value="&nbsp;&nbsp;&nbsp;Next&nbsp;&nbsp;&nbsp;">
-                </div>
-                <P id="w2" style="display: none;" class="alert alert-success my-3 mx-5"><strong>Failure!</strong> Field Details aren't filled corectly.</p>
-               </div>
-              </div>
-              <div class="col-12 col-sm-12 col-md-4">
-                <div class="row">
-                  <div class="col-12">
-                      <img src="carre.png" id="img1" alt="carlogo" width="250px" height="200px">
-                  </div>
-                  <div class="row">
-                  <div class="col offset-1">
-                    <br>
-                    <table class="table table-hover" style="padding:20px;">
-
-                      <thead>
-                        <tr>
-                         
-                         
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr class="table-primary">
-                          <td>Company</td>
-                          <td id="name" width="100%">name</td>
-                        </tr>
-                        <tr class="table-secondary">
-                          
-                          <td>Rent</td>
-                          <td id="rent">1000</td>
-                          
-                        </tr>
-                        <tr class="table-success">
-                          
-                          <td>Fuel</td>
-                          <td id="fuel">petrol</td>
-                          
-                        </tr>
-                        <tr class="table-danger" style="padding-right: 10px;">
-                          <td>Details</td>
-                          <td>Good condition.<br>
-                          video and audio.<br>
-                          Air Bags Safety.
-                        </td>
-                        </tr>
-                      
-                        <tr class="table-warning">
-                          
-                          <td colspan="2"><a href="services.html">click here</a> For more car Details</td>
-                         
-                          
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
-                </div>
-                </div>
-              </div>
-            </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div>
-            <div class="card-header acc" id="headingThree"  data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-              <h2 class="mb-0">
-                <label  type="label"  aria-controls="collapseThree">
-                  Details Of The Customer
-                </label>
-              </h2>
-            </div>
-            
-            <div class="row">
-              <div class="col-12 col-sm-12 col-md-12 card">
-                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
-                  <div class="card-body">
-                    <div class="input-group mb-3">
-                      <div class="input-group-prepend">
-                        <span class="input-group-text" id="basic-addon1"><i class="fa fa-user fa-lg"></i></span> <input type="text" id="un" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1"> 
-                        <br>
-                      
+                  </select>
+                  <br>
+                <div class="col-md-8 form-group">
+                  <div class="input-group mb-3">
+                    <div class="input-group-prepend text-center" data-aos="fade-left">
+                    
+                      <span class="input-group-text" id="basic-addon1"><i class="f5">Fuel : </i></span>
+                        
+                      <div class="btn-group btn-group-toggle" data-toggle="buttons" id="r1">
+                        &nbsp;&nbsp;&nbsp;
+                        <label class="btn btn-info">
+                          <input type="radio" name="options" id="option1"  value="Full Tank" checked>Full Tank
+                        </label>
+                        <label class="btn btn-info">
+                          <input type="radio" name="options" id="option2" value="Half Tank">Half Tank
+                        </label>
+                        <label class="btn btn-info">
+                          <input type="radio" name="options" id="option3" value="Min fuel">min.Fuel
+                        </label>
                       </div>
-                  </div>
-                <div class="input-group mb-3">
-                  <div class="input-group-prepend">
-                    <span class="input-group-text" id="basic-addon1"><i class="fa fa-envelope fa-lg"></i></span> <input type="email" id="em" class="form-control" placeholder="Email" aria-label="Username" aria-describedby="basic-addon1"> 
-                    <br>
-                  
-                  </div>
-              </div>
-                <div class="input-group mb-3">
-                  <div class="input-group-prepend">
-                    <span class="input-group-text" id="basic-addon1"><i class="fa fa-mobile fa-lg"></i></span> <input type="tel"  id="tn"class="form-control" placeholder="Mobile Number" aria-label="Username" aria-describedby="basic-addon1"> 
-                    <br>
-                  
-                  </div>
-              </div>
-              <div class="input-group mb-3">
-                <div class="input-group-prepend">
-                  <input type="file" class="form-control-file border" id="f1">
-                </div>
-              </div>
-                <div class="input-group mb-3">
-                  <div class="input-group-prepend">
-                    <input type="file" class="form-control-file border" id="f2">
-                  </div>
-              </div>
-                <div class="input-group mb-3">
-                  <div class="input-group-prepend">
-                    <span class="input-group-text" id="basic-addon1"><i class="fa fa-mobile fa-lg"></i></span><span class="input-group-text" id="basic-addon1"><i class="f5">Deposit payment :</i></span><label class="btn btn-light btn-md f5 my-2">Amount</label> 
-                    
-                    <br>
-                  
-                  </div>
-              </div>
-                <div class="input-group mb-3">
-                  <div class="input-group-prepend">
-                    <div class="btn-group btn-group-toggle" data-toggle="buttons" id="r2">
-                      <label class="btn btn-info active">
-                        <input type="radio" name="opt" id="option1" value="Phone pe" checked>Phone Pe
-                      </label>
-                      <label class="btn btn-secondary">
-                        <input type="radio" name="opt" id="option2" value="Google Pay">Google Pay
-                      </label>
-                      <label class="btn btn-primary">
-                        <input type="radio" name="opt" id="option3" value="Amazon Pay">Amazon Pay
-                      </label>
-                      <label class="btn btn-success">
-                        <input type="radio" name="opt" id="option3" value="Credit-card">Credit-Card
-                      </label>
-                      <label class="btn btn-warning">
-                        <input type="radio" name="opt" id="option3" value="Cash On Delivery">Cash On Delivery
-                      </label>
                     </div>
-                    
-                    <br>
-                  
                   </div>
-              </div>
-            <div class="input-group mb-3">
-              <div class="input-group-prepend">
-                <input type="submit" onclick="valid3();" class="btn btn-success mx-auto mx-10"name="Register" value="&nbsp;&nbsp;&nbsp;Register&nbsp;&nbsp;&nbsp;"> 
-                <input type="submit" class="btn btn-danger" onclick="preview();" name="preview" value="&nbsp;&nbsp;&nbsp;preview&nbsp;&nbsp;&nbsp;">
-                <P id="w3" style="display: none;" class="alert alert-success my-3 mx-5"><strong>Failure!</strong> Field Details aren't filled corectly.</p>
-              </div>
+                  <div class="validate"></div>
                 </div>
-                
+              </div>
+             <div class="col-md-10 offset-8">
+              <div class="text-center" data-aos="fade-up"><button type="submit" class="btn btn-success">Send Message</button></div>
+             </div>
+              
+            </form>
+    
+          </div>
+        </div>
+       
+
+      </div>
+    </div>
+  </div>
+</div>
+<br>
+<br>
+<div class="container">
+  <div class="row">
+    <div class="col" id="f3">
+
+      <h1 style="font-family: sans-serif;border:1px solid rgb(183, 221, 183);padding: 8px;"data-aos="fade-down"><span class="fa fa-envelope"></span>  Star your Tour</h1>
+       
+        <br>
+        <form action="forms/contact.php" method="post" role="form" class="php-email-form" data-aos="fade-left">
+          <div class="form-row">
+            <div class="col-md-6 form-group"data-aos="fade-left">
+            
+              Username :<input type="text" name="name" class="form-control" id="name" placeholder="Enter your username" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+              <div class="validate"></div>
+            </div>
+            <div class="col-md-6 form-group"data-aos="fade-right">
+              Email :<input type="email" class="form-control" name="time" id="email" placeholder="Enter your email id" data-rule="email" data-msg="Please enter a valid email" />
+              <div class="validate"></div>
+            </div>
+          </div>
+          <div class="form-group"data-aos="fade-left">
+            Mobile number :<input type="tel" class="form-control" name="message" rows="5" data-rule="required" data-msg="Enter your mobile number" placeholder="Address to handover car"></textarea>
+            <div class="validate"></div>
+          </div>
+          <div class="form-row">
+            <div class="col-md-6 form-group"data-aos="fade-left">
+              Driving License :<input type="file" class="form-control-file border" id="f1">
+            </div>
+            <div class="col-md-6 form-group" data-aos="fade-right">
+              Adhaar Card / Passport :<input type="file" class="form-control-file border" id="f2">
+            </div>
+          </div>
+          <div class="input-group mb-3" data-aos="fade-left">
+            <div class="input-group-prepend">
+              <span class="input-group-text" id="basic-addon1"><i class="fa fa-mobile fa-lg"></i></span><span class="input-group-text" id="basic-addon1"><i class="f5">Deposit payment :</i></span><label class="btn btn-light btn-md f5 my-2">Amount</label> 
+              
+              <br>
+            
+            </div>
+        </div>
+          <div class="input-group mb-3" data-aos="fade-left">
+            <div class="input-group-prepend">
+              <div class="btn-group btn-group-toggle" data-toggle="buttons" id="r2">
+                <label class="btn btn-info active">
+                  <input type="radio" name="opt" id="option1" value="Phone pe" checked>Phone Pe
+                </label>
+                <label class="btn btn-info">
+                  <input type="radio" name="opt" id="option2" value="Google Pay">Google Pay
+                </label>
+                <label class="btn btn-info">
+                  <input type="radio" name="opt" id="option3" value="Amazon Pay">Amazon Pay
+                </label>
+                <label class="btn btn-info">
+                  <input type="radio" name="opt" id="option3" value="Credit-card">Credit-Card
+                </label>
+                <label class="btn btn-info">
+                  <input type="radio" name="opt" id="option3" value="Cash On Delivery">Cash On Delivery
+                </label>
               </div>
               
-          
-            </div>
+              <br>
+              <br>
             
-
-          </div>
-          
-          
-           </div>
-     
-      
-          </div>
-         
-          </div>
-          
+            </div>
         </div>
-        <div class="t text-center">Thank you . Enjoy our Service</div>
-      </div>
-     
+          
+          <div class="text-center"><button type="submit" class="btn btn-success">Register</button></div>
+        </form>
+
+
     </div>
   </div>
-  <footer class="footer"style="background-color:#bdbdbd">
-    <div class="container">
-        <div class="row">             
-             <div class="col-4 offset-1 col-sm-2">
-               <br>
-                <h5>Links</h5>
-                <ul class="list-unstyled">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="./aboutus.html">About</a></li>
-                    <li><a href="#">Menu</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-            </div>
-            <div class="col-7 col-sm-5">
-              <br>
-                <h5>Our Address</h5>
-                <address>
-              121, Clear Water Bay Road<br>
-              Clear Water Bay, Kowloon<br>
-              HONG KONG<br>
-              <i class="fa fa-phone fa-lg"></i> :+852 1234 5678<br>
-              <i class="fa fa-fax fa-lg"></i> :+852 8765 4321<br>
-                  <i class="fa fa-envelope fa-lg"></i> : <a href="mailto:confusion@food.net">confusion@food.net</a>
-           </address>
-            </div>
-            
-            <div class="col-12 col-sm-4">
-              <br>
-                <div class="text-center align-items-center">
-                    <a class="btn btn-social-icon btn-google" href="http://google.com/+"><i class="fa fa-google-plus fa-lg"></i></a>
-                    <a class="btn btn-social-icon btn-facebook" href="http://www.facebook.com/profile.php?id="><i class="fa fa-facebook fa-lg"></i></a>
-                    <a class="btn btn-social-icon btn-linkedin"  href="http://www.linkedin.com/in/"><i class="fa fa-linkedin fa-lg"></i></a>
-                    <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i class="fa fa-twitter fa-lg"></i></a>
-                    <a class="btn btn-social-icon btn-google" href="http://youtube.com/"><i class="fa fa-youtube fa-lg"></i></a>
-                    <a class="btn btn-social-icon" href="mailto:"><i class="fa fa-envelope-o"></i></a>
-                </div>
-            </div>  
-       </div>
-       <div class="row justify-content-center">             
-            <div class="col-auto">
-                <p>© Copyright 2018 Ristorante Con Fusion</p>
-            </div>
-       </div>
+</div>
+<br>
+<br>
+
+<footer class="site-footer" style="background-image:url('new1.jpg');margin-left:-100px;margin-right: -100px;">
+  <div class="container">
+    <br>
+    <div class="row">
+      <div class="col-lg-3">
+        
+        <h2 class="footer-heading mb-4"style="color:white">About Us</h2>
+            <p style="color:white;opacity: 0.5;">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
+      </div>
+      <div class="col-lg-8 ml-auto">
+        <div class="row">
+          <div class="col-lg-3">
+            <h2 class="footer-heading mb-4" style="color:white">Quick Links</h2>
+            <ul class="list-unstyled"style="color:white;opacity: 0.5;">
+              <li><a href="#"style="color:white;opacity: 0.5;">About Us</a></li>
+              <li><a href="#"style="color:white;opacity: 0.5;">Testimonials</a></li>
+              <li><a href="#"style="color:white;opacity: 0.5;">Terms of Service</a></li>
+              <li><a href="#"style="color:white;opacity: 0.5;">Privacy</a></li>
+              <li><a href="#"style="color:white;opacity: 0.5;">Contact Us</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-3"style="color:white">
+            <h2 class="footer-heading mb-4">Quick Links</h2>
+            <ul class="list-unstyled"style="color:white;opacity: 0.5;">
+              <li><a href="#"style="color:white;opacity: 0.5;">About Us</a></li>
+              <li><a href="#"style="color:white;opacity: 0.5;">Testimonials</a></li>
+              <li><a href="#"style="color:white;opacity: 0.5;">Terms of Service</a></li>
+              <li><a href="#"style="color:white;opacity: 0.5;">Privacy</a></li>
+              <li><a href="#"style="color:white;opacity: 0.5;">Contact Us</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-3"style="color:white">
+            <h2 class="footer-heading mb-4">Quick Links</h2>
+            <ul class="list-unstyled"style="color:white;opacity: 0.5;">
+              <li><a href="#"style="color:white;opacity: 0.5;">About Us</a></li>
+              <li><a href="#"style="color:white;opacity: 0.5;">Testimonials</a></li>
+              <li><a href="#"style="color:white;opacity: 0.5;">Terms of Service</a></li>
+              <li><a href="#"style="color:white;opacity: 0.5;">Privacy</a></li>
+              <li><a href="#"style="color:white;opacity: 0.5;">Contact Us</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-3"style="color:white">
+            <h2 class="footer-heading mb-4">Quick Links</h2>
+            <ul class="list-unstyled"style="color:white;opacity: 0.5;">
+              <li><a href="#"style="color:white;opacity: 0.5;">About Us</a></li>
+              <li><a href="#"style="color:white;opacity: 0.5;">Testimonials</a></li>
+              <li><a href="#"style="color:white;opacity: 0.5;">Terms of Service</a></li>
+              <li><a href="#"style="color:white;opacity: 0.5;">Privacy</a></li>
+              <li><a href="#"style="color:white;opacity: 0.5;">Contact Us</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </div>
+    <div class="row pt-5 mt-5 text-center">
+      <div class="col-md-12">
+        <div class="border-top pt-5">
+          <p style="color:white;opacity: 0.5;">
+        
+        Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart text-danger" aria-hidden="true"></i> by <a href="#" target="_blank" >Avengers</a>
+       
+        </p>
+        </div>
+      </div>
+
+    </div>
+  </div>
 </footer>
 
+
+  </div>
+</div>
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="reg.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="owl.carousel/owl.carousel.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"></script>
+    <script>
+      AOS.init({
+
+      });
+    </script>
+
 </body>
 </html>
